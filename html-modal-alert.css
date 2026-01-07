@@ -1,0 +1,43 @@
+ /* HTML Modal Alert */
+ /* developed by Tawhidur Rahman Dear, https://www.tawhidurrahmandear.com */
+ /* Live Preview available at https://www.devilhunter.net/2026/01/html-modal-alert.html */
+ 
+  
+
+/* HTML Modal Alert Styles */
+
+    #customAlert {
+        width: 90%; 
+        max-width: 600px; 
+        padding: 20px;
+    }
+
+    #alertText {
+        font-size: 3vw; 
+        text-align: center;
+        font-family: "Acme", sans-serif;
+    }
+
+    #closeAlert {
+        padding: 10px 20px;
+    }
+
+    @media (max-width: 600px) {
+        #alertText {
+            font-size: 5vw; 
+        }
+
+        #closeAlert {
+            padding: 8px 16px;
+        }
+    }
+
+    @media (min-width: 601px) {
+        #alertText {
+            font-size: 20px;
+        }
+
+        #closeAlert {
+            padding: 10px 20px; 
+        }
+    }
